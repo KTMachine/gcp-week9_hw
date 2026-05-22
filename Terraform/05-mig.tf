@@ -61,6 +61,7 @@ resource "google_compute_region_instance_group_manager" "main" {
   distribution_policy_zones = [
     "us-central1-a",
     "us-central1-b",
+    "us-central1-c",
     "us-central1-f",
   ]
 
